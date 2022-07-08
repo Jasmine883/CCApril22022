@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="circle"></div>
+        <header>
+            <img src="image/logo.png" class="logo" alt="logo">
+
+            <!-- ul>*4>a-->
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">What's new</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+
+        </header>
+
+        <!-- This is my main content-->
+
+        <div class="content">
+
+            <div class="rightBox">
+                <h2>This is not<br>
+                    ordinary coffee. It's<br>
+                    <span>Starbucks</span>
+                </h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In voluptates aliquid perspiciatis amet
+                    eveniet ullam dignissimos incidunt nulla, dolore assumenda natus id. Repudiandae, voluptatem dolore.
+                    Necessitatibus perferendis beatae porro placeat modi eos.</p>
+
+                <a href="#">Learn More</a>
+
+            </div>
+
+            <div class="mainImg">
+
+            <img src="image/img1.png" class="starbucks">
+
+
+            </div>
+        </div>
+
+<ul class="thumb">
+<li><img src="image/thumb1.png" onclick="imageSlider('image/img1.png');changecircle('#017143')"></li>
+<li><img src="image/thumb2.png" onclick="imageSlider('image/img2.png');changecircle('#EF82A0 ')"></li>
+<li><img src="image/thumb3.png" onclick="imageSlider('image/img3.png');changecircle('#952361')"></li>
+<li><img src="" alt=""></li>
+
+</ul>
+
+
+<ul class="socialMedia">
+<li><img src="image/facebook.png" alt=""></li>
+<li><img src="image/twitter.png" alt=""></li>
+<li><img src="image/instagram.png" alt=""></li>
+<li><img src="" alt=""></li>
+
+</ul>
+
+
+    </section>
+
+<script>
+
+function imageSlider(change){
+
+document.querySelector('.starbucks').src=change;
+
+
+}
+
+function changecircle(color){
+
+    const circle=document.querySelector('.circle');
+    circle.style.background=color;
+}
+
+</script>
+
+</body>
+
+</html>

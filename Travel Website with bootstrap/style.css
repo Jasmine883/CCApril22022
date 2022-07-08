@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.header{
+
+    height:100%;
+    background-image: radial-gradient(rgba(255, 255, 249, 0.6) 0%, rgb(160, 199, 254) 74.6%),url("images/banner1.jpg");
+    background-size: cover;
+    background-position: cover;
+    padding-top:20px;
+    text-align:center;
+    color:#fff;
+}
+.header img{
+    width:200px;
+    float:left;
+
+}
+.header h1{
+    padding-top: 260px;
+    padding-bottom:0;
+    font-size:50px;
+}
+
+
+
+
+/* Features */
+
+.features{
+    padding:100px;
+
+}
+
+h1{
+    text-align: center;
+    padding-bottom:30px;
+}

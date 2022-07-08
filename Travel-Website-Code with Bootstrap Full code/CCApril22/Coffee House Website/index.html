@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <a href="#" class="logo">Coffee<br> Hut</a>
+    <img src="image/logobean.png" class="logobean">
+<div class="container">
+<div class="nav">
+
+    <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+
+</header>
+
+
+<section>
+<img src="image/coffeebeans.png" class="coffeebeans">
+<h1>Taste our<br> best blend</h1>
+<h4>
+Join us on Saturday 4th June for our <br> Grand Opening!
+</h4>
+<p>Use our app to discover offers and our<br> latest events </p>
+<button>Download the app</button>
+ 
+</section>
+
+<aside>
+    <img src="image/coffeetable.jpeg" class="table">
+    <div><img src="image/yellowmug.png" class="yellowmug">
+</div>
+</aside>
+
+<footer>
+  <div>
+<ul class="thumb">
+    <li><img src="image/yellowmug.png" onclick='changeImage("image/yellowmug.png");'></li>
+    <li><img src="image/heartmug.png" onclick='changeImage("image/heartmug.png");'></li>
+    <li><img src="image/bluemug.png"  onclick='changeImage("image/bluemug.png");'></li>
+    <li><img src="image/redmug.png"  onclick='changeImage("image/redmug.png");'></li>
+</ul>
+</div>  
+<ul class="social">
+    <li><a href="#"><img src="image/instagram.png"></a></li>
+    <li><a href="#"><img src="image/twitter.png"></a></li>
+
+</ul>
+
+<script  type="text/javascript">
+    function changeImage(a) {
+        document.querySelector('.yellowmug').src=a;
+    }
+
+
+</script>
+
+</footer>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
